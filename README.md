@@ -40,7 +40,6 @@ Icon afbeelding wijzigen
 
 Wil je liever een andere icon afbeelding? Kies dan een foto uit de img map en verander het onderstaande pad naar de afbeelding:
 
-	
 	<img onmouseover="moveRight(this, amountToMoveTotal, amountToMovePerStep, timeToWaitBeforeNextIncrement)" src="blij.png"/>
 	
 
@@ -48,5 +47,5 @@ Wil je liever een andere icon afbeelding? Kies dan een foto uit de img map en ve
 
 De volgende functionaliteiten staan op de planning om in een volgende versie van de library toe te voegen:
 
-    Dynamische icon afbeeldingen.
-    Inspirerende/motiverende tekst die animeren.
+    - Dynamische icon afbeeldingen.
+    - Inspirerende/motiverende tekst die animeren.
