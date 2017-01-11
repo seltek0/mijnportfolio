@@ -6,8 +6,8 @@ Door deze library toe te voegen aan je website, wordt er een slider op je pagina
 Hieronder een opsomming van de functionaliteiten van deze library
 
     De afbeelding gaat van links naar rechts
-    De afbeelding heeft een standaard snelheid
-    Je kan ook een ander afbeelding gebruiken uit de img map
+    De afbeelding heeft een standaard snelheid of je kan het zelf aanpassen via de variabele
+    Je kan ook een ander afbeelding gebruiken uit de img map of een eigen afbeelding gebruiken dmv het in de img map te zetten en te linken
 
 # Demo
 URL om de demo te bekijken
@@ -22,21 +22,21 @@ Mogelijkheid 2: Handmatig
 
 Download de library (zip) en pak het zip bestand uit. Plaats img en js map in je root. Voeg de onderstaande HTML code toe aan je body tag in je HTML file: >>>
 
-    <div id="wrapper">
-        <div id="name"></div>
-        <div id="time"></div>
-        <div id="date"></div>
-    </div>
-<script>Library.play();</script>
-<script>Library.backgroundImage("img/bg3.jpg");</script>
+	    <div id="wrapper">
+		<div id="name"></div>
+		<div id="time"></div>
+		<div id="date"></div>
+	    </div>
+	<script>Library.play();</script>
+	<script>Library.backgroundImage("img/bg3.jpg");</script>
 
 <<
 
 Voeg de volgende regel toe aan je header tag:
 
-<script src="js/library.js"></script>
+	<script src="js/library.js"></script>
 
-Icon afbeelding wijzigen
+Icon afbeelding wijzigen:
 
 Wil je liever een andere icon afbeelding? Kies dan een foto uit de img map en verander het onderstaande pad naar de afbeelding:
 
