@@ -28,7 +28,9 @@ Download de library (zip) en pak het zip bestand uit. Plaats img en js map in je
     </div>
 <script>Library.play();</script>
 <script>Library.backgroundImage("img/bg3.jpg");</script>
+
 <<
+
 Voeg de volgende regel toe aan je header tag:
 
 <script src="js/library.js"></script>
@@ -37,9 +39,11 @@ Icon afbeelding wijzigen
 
 Wil je liever een andere icon afbeelding? Kies dan een foto uit de img map en verander het onderstaande pad naar de afbeelding:
 
+<div>
 <img onmouseover="moveRight(this, amountToMoveTotal, amountToMovePerStep, timeToWaitBeforeNextIncrement)" src="blij.png"/>
+</div>
 
-Updates
+# Updates
 
 De volgende functionaliteiten staan op de planning om in een volgende versie van de library toe te voegen:
 
