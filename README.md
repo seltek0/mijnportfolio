@@ -1,31 +1,25 @@
-# mijnportfolio
-Dit is mijn eerste portfolio
-Personal Dashboard Library
+# Slider naar rechts
 
-Door deze library toe te voegen aan je website, wordt er een persoonlijke dashboard op je pagina weergegeven die in een oogopslag je naam, tijd en huidige datum weergeeft.
-Wat het doet
+Door deze library toe te voegen aan je website, wordt er een slider op je pagina weergegeven die overal handig is in gebruik. Zoals: wanneer je fancy animatie wilt toevoegen in je website.
 
+# Wat het doet
 Hieronder een opsomming van de functionaliteiten van deze library
 
-    Geeft dagdeel weer in een begroeting.
-    Geeft constant de juiste tijd weer, wordt live bijgewerkt.
-    Geeft huidige datum weer.
-    Inspirerende achtergrondafbeelding op full screen
-    Kies een van de voorgeselecteerde achtergrondafbeelding uit de img map.
+    De afbeelding gaat van links naar rechts
+    De afbeelding heeft een standaard snelheid
+    Je kan ook een ander afbeelding gebruiken uit de img map
 
-Demo
-
-URL naar demo.
-Installatie
+# Demo
+URL om de demo te bekijken
 
 De library kan als volgt geinstalleerd worden in je website.
 Mogelijkheid 1: GitHub clone
 
- $ git clone https://github.com/paolo-pg/library
+ $ git clone https://github.com/seltek0/mijnportfolio
 
 Mogelijkheid 2: Handmatig
 
-Download de library (zip) en pak het zip bestand uit. Plaats de css, img en js map in je root. Voeg de onderstaande HTML code toe aan je body tag in je HTML file:
+Download de library (zip) en pak het zip bestand uit. Plaats img en js map in je root. Voeg de onderstaande HTML code toe aan je body tag in je HTML file: >>>
 
     <div id="wrapper">
         <div id="name"></div>
@@ -34,22 +28,20 @@ Download de library (zip) en pak het zip bestand uit. Plaats de css, img en js m
     </div>
 <script>Library.play();</script>
 <script>Library.backgroundImage("img/bg3.jpg");</script>
-
-Voeg de volgende twee regels toe aan je header tag:
+<<
+Voeg de volgende regel toe aan je header tag:
 
 <script src="js/library.js"></script>
-<link rel="stylesheet" href="css/style.css">
 
-Achtergrondafbeelding wijzigen
+Icon afbeelding wijzigen
 
-Wil je liever een andere achtergrondafbeelding? Kies dan een foto uit de img map en verander het onderstaande pad naar de afbeelding:
+Wil je liever een andere icon afbeelding? Kies dan een foto uit de img map en verander het onderstaande pad naar de afbeelding:
 
-<script>Library.backgroundImage("img/bg3.jpg");</script>
+<img onmouseover="moveRight(this, amountToMoveTotal, amountToMovePerStep, timeToWaitBeforeNextIncrement)" src="blij.png"/>
 
 Updates
 
 De volgende functionaliteiten staan op de planning om in een volgende versie van de library toe te voegen:
 
-    Dynamische achtergrondafbeeldingen.
-    Live weerbericht.
-    Inspirerende/motiverende quotes.
+    Dynamische icon afbeeldingen.
+    Inspirerende/motiverende tekst die animeren.
