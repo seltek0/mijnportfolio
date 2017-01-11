@@ -13,6 +13,7 @@ Hieronder een opsomming van de functionaliteiten van deze library
 URL om de demo te bekijken
 
 De library kan als volgt geinstalleerd worden in je website.
+
 Mogelijkheid 1: GitHub clone
 
  $ git clone https://github.com/seltek0/mijnportfolio
@@ -39,9 +40,9 @@ Icon afbeelding wijzigen
 
 Wil je liever een andere icon afbeelding? Kies dan een foto uit de img map en verander het onderstaande pad naar de afbeelding:
 
-<div>
-<img onmouseover="moveRight(this, amountToMoveTotal, amountToMovePerStep, timeToWaitBeforeNextIncrement)" src="blij.png"/>
-</div>
+	
+	<img onmouseover="moveRight(this, amountToMoveTotal, amountToMovePerStep, timeToWaitBeforeNextIncrement)" src="blij.png"/>
+	
 
 # Updates
 
