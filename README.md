@@ -1,5 +1,5 @@
 # Simpele bewegende animaties
-Door deze library toe te voegen aan je website, wordt er een object op je pagina weergegeven die overal handig is in gebruik. Zoals: wanneer je fancy animatie wilt toevoegen in je website.
+Door deze library toe te voegen aan je website, wordt er een object op je pagina weergegeven die overal handig is in gebruik. Zoals: wanneer je fancy animatie wilt toevoegen op je website.
 
 # Wat doet library_1
 Hieronder een opsomming van de functionaliteiten van deze library
@@ -36,7 +36,9 @@ Download de library (zip) en pak het zip bestand uit. Plaats img en js map in je
 Voeg de volgende regel toe aan je header tag library_1:
 
 	<script src="js/library.js"></script>
-	
+
+# Voorbeeld library_1
+http://i326486.venus.fhict.nl/library_selime/library_1/
 	
 Voor library_2 body tag: 
 
@@ -49,6 +51,9 @@ Voor library_2 body tag:
 Voeg de volgende regel toe aan je header tag library_2:
 
 	<script src="js/javascript.js"></script>
+
+# Voorbeeld library_2
+http://i326486.venus.fhict.nl/library_selime/library_2/
 	
 # Updates
 
