@@ -37,9 +37,10 @@ Voeg de volgende regel toe aan je header tag library_1:
 
 	<script src="js/library.js"></script>
 
-# Voorbeeld library_1
+__Voorbeeld library_1__
 http://i326486.venus.fhict.nl/library_selime/library_1/
-	
+
+
 Voor library_2 body tag: 
 
 	var hallo = new selime();
@@ -52,13 +53,14 @@ Voeg de volgende regel toe aan je header tag library_2:
 
 	<script src="js/javascript.js"></script>
 
-# Voorbeeld library_2
+__Voorbeeld library_2__
 http://i326486.venus.fhict.nl/library_selime/library_2/
-	
+
+
 # Updates
 
 De volgende functionaliteiten staan op de planning om in een volgende versie van de library toe te voegen:
 
-    - Dynamische icon afbeeldingen.
-    - Inspirerende/motiverende tekst die animeren.
-    - Je eigen achtergrondkleur aanpassen via de html pagina
+-	Dynamische icon afbeeldingen.
+-	Inspirerende/motiverende tekst die animeren.
+-	Je eigen achtergrondkleur aanpassen via de html pagina
